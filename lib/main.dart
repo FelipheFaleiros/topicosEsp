@@ -7,11 +7,14 @@ void main() => runApp(
             title: Text('Transferência'),
           ),
           body: Card(
-            child: Text('Teste'),
+            child: ListTile(
+              leading: Icon(Icons.monetization_on),
+              title: Text('100.0')
+            ),
           ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
-            child: const Icon(Icons.add),
+            child: const Icon(Icons.android),
           ),
         ),
       ),
