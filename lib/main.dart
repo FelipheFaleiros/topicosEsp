@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 void main() => runApp(Column(
       children: const <Widget>[
         Text(
-          'Deliver features faster',
+          'Primeiro texto flutter',
           textDirection: TextDirection.ltr,
         ),
         Text(
-          'Craft beautiful UIs',
+          'Segundo texto flutter',
           textDirection: TextDirection.ltr,
         ),
         Expanded(
