@@ -6,9 +6,12 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Transferência'),
           ),
+          body: Card(
+            child: Text('Teste'),
+          ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
-            child: const Icon(Icons.add_a_photo),
+            child: const Icon(Icons.add),
           ),
         ),
       ),
