@@ -8,7 +8,7 @@ void main() => runApp(
           ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
-            child: const Icon(Icons.remove),
+            child: const Icon(Icons.add_a_photo),
           ),
         ),
       ),
