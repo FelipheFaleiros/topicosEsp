@@ -7,11 +7,9 @@ void main() => runApp(
             title: Text('Transferência'),
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed:() {
-
-            }, 
+            onPressed: () {},
             child: const Icon(Icons.navigate_before),
-           ),
+          ),
         ),
       ),
     );
